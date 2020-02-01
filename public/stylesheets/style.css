@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  background: #222;
+  color: aliceblue;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul > li > a {
+  list-style: none;
+}
+
+
