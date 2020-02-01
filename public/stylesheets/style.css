@@ -1,16 +1,40 @@
+
+
 body{
   margin: 0;
   background: #222;
   color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: rgba(253, 48, 48, 0.534);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: column;
+  min-height: 100px;
 }
 
-ul > li > a {
+.container-navbar {
+  display: grid;
+  grid-auto-flow: column;
+  align-content: center;
+  margin-right: 10px;
+}
+.container-navbar > ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 10px;
+
+}
+.container-navbar > ul > li {
   list-style: none;
 }
+
 
 
