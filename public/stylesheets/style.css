@@ -7,6 +7,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 header {
+  margin-top: 30px;
   background-color: rgba(253, 48, 48, 0.534);
   text-align: center;
   position: fixed;
@@ -18,8 +19,21 @@ header {
   display: grid;
   grid-auto-flow: column;
   min-height: 100px;
+  align-content: center;  
+}
+.container > .searchbox {
+  justify-content: center;
+  margin: 30px 10px;
+  align-content: center;
 }
 
+.container > .searchbox > input{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
 .container-navbar {
   display: grid;
   grid-auto-flow: column;
